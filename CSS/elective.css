@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+.navi{ font-size:16px;}
+body{ font-size:62.5%; background:url(../image/elective-bg-01.jpg) center top fixed;}
+h2{z-index:999;margin:0; padding:0;font-size:14px; color:#666666; text-align:left; margin-left:30px;margin-bottom:5px; margin-top:0px;position:relative;top:-4px;}
+h2 span{position:relative; top:-6px;color: #CCCCCC; background-color:#9BBB59;border:1px solid #000000;margin-right:20px;text-decoration:none; padding:10px; }
+h2 span a{color:#000;margin:0;text-decoration:none;}
+h2 span a:hover{color:#fff;}
+h2 em{font-style:normal; color:#fff;border:1px solid #000000; border-bottom:none; border-top:#9BBB59 5px; padding:16px; background-color:#9BBB59;position:relative; top:-6px;margin-right:20px;}
+* html h2 em{ padding:14px; top:-4px;}
+*+html h2 em{ padding:14px; top:-4px;}
+table{font-size:1.2em; width:960px; margin:auto; border-collapse:collapse;background-color:#E6EED5;border:1px #333333 solid;}
+th{text-align:center; background-color:#9BBB59;border-top:1px #333333 solid;height:4em;}
+td{border:1px #333333 solid;height:3em; }
+tr{ height:3em;}
+.tr{ background-color:#FFFFFF; height:3em;}
+.tr:hover{background-color:#cbdaab}
+tr:hover{ background-color:#cbdaab}
+.out-div{width:960px; text-align:center; margin:0 auto; padding:0;_position:relative; _top:-40px; margin-bottom:50px;_margin-bottom:0;}
+.h1{ z-index:99;text-align:center; text-indent:-5em;color:#fff; margin:20px auto 24px auto; border:1px #000000 solid ;background-color:#9BBB59; padding:1em 0 0.5em 0; width:960px; font-size:32px;_margin-bottom:2em;}
+.h1 span{font-size:0.5em; position: relative; top:-25px; left:-50px; color: #EEEEEE; letter-spacing:0.5em;}
+

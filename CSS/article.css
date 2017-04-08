@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+.bgtop{background:url(../image/div-bg.jpg) no-repeat right 80px ;}
+.bgbottom{background:url(../image/div-bg02.jpg) no-repeat right bottom ;}
+
+/*<!--------------导航条--------->*/
+
+
+.toallimg{ position:relative; width:180px; height:250px;float:right;margin-right:50px; margin-top:-30px;_margin-top:0px; background:url(../image/art-showall.jpg) no-repeat right 0px;}
+.toallimg:hover{ background:url(../image/art-showall.jpg) no-repeat top left ; }
+/*<!--------------主内容块--------->*/
+.main{width:980px; margin:0 auto 20px auto; background:url(../image/article-mian-middle-bg.gif) top left repeat-y; display:block;}
+
+		/*<!--------------文章块--------->*/
+.left{width:580px;float:left;padding:0 35px;font-size:14px;background:url(../image/article-mian-top-bg.gif) left top no-repeat;}
+.left h5{font-size:20px; margin-bottom:20px; letter-spacing:0.8em;}
+.article{border-bottom:1px solid #d4d6ce; padding-bottom:20px; margin-bottom:20px; line-height:1.5em; font-size:14px; color:#696969; overflow:hidden;}
+.author{ margin-bottom:20px;padding-bottom:20px; border-bottom:1px solid #d4d6ce; color:#696969; font-size:12px; color:#4D87CE;}
+.author img{float:right; width:150px; padding:5px; border:solid #999 1px; margin: auto 40px;}
+.author .clearit{clear:both;}
+
+
+
+		/*<!--------------上下篇文章导航--------->*/
+.pre-nex{clear:both; display:block; height:2.5em; position:relative; border-bottom:#CCC solid 1px; margin-top:-10px;}
+.pre-nex .preview,.pre-nex .next{width:260px;}
+.pre-nex .preview{float:left;}
+.pre-nex .next{float:right; border-color:#DBE2C7;}
+
+.pre-nex .preview a,.pre-nex .preview span{padding:0.5em 0 0 35px; background: url(../image/up-down.gif) 5px top no-repeat; height:1.5em;display:block; float:left; color:#1185bb;}
+.pre-nex .next a,.pre-nex .next span{padding:0.5em 30px 0 0;background:url(../image/up-down.gif) right -67px no-repeat; height:1.5em; display:block; float:right; color:#1185bb; border-right:5px solid #F4F7EC;}
+.pre-nex a.tolist{width:20px;display:block; margin:auto; padding:4px 6px;background:url(../image/up-down.gif) center -36px no-repeat; margin-top:5px;}
+.pre-nex a.tolist:hover{ background-position:center -135px;}
+.pre-nex .preview a:hover{background-position: 0 -103px; color:#33ccff; border-bottom:2px solid #333;}
+.pre-nex .next a:hover{background-position:right -162px;color:#33ccff; padding-right:35px; border:none;border-bottom:2px solid #333;}
+.pre-nex .preview span,.pre-nex .next span{color:#999;}
+
+
+
+.remark{color:#97a082; font-size:12px; padding-bottom:20px; border-bottom:1px solid #d4d6ce; margin-bottom:20px;}
+.remark p span{color:#FF0000; font-weight:bolder;}
+.remark p.score{text-align:right; clear:both; padding:1.5em 0.5em;}
+.remark p.score img{ margin: auto auto -12px 5px;}
+.remark td span{color: #4F4FD9; margin-right:20px;}
+.remark table{width:100%;table-layout:fixed;}
+.remark table td{ padding:3px;word-wrap:break-all;table-layout:fixed; vertical-align:bottom;}
+.remark table td p{background-color:#dbe2c7; border:solid 1px #999999;  padding:8px 8px 8px 3em; text-indent:-2.5em;overflow:hidden;}
+.remark table td p span{font-size:1.5em; color:#889075;}
+.remark table td p b{font-size:2em;}
+.remark table td em{font-style:normal; text-align:right; display:block;}
+.remark table td em img{position:relative;}
+.remark table td cite{padding:0 0.4em; font-size:20px;}
+.remark div.showall{ text-align:center; margin:0.5em auto 0.5em auto; width:15em; padding:0; border: dashed #666666 1px; background-color: #DBE2C7;}
+.remark div.showall a,.remark div.showall .outIE6{cursor:pointer;display:block;padding:0.8em 1em; height:1%; font-weight:bolder; color:#CCC; position:relative;}
+.remark div.showall .hoverIE6{background-color:#b8c889; color:#FFF; }
+.remark div.showall a img{ position:absolute; left:30px;}
+
+
+.remark form{ background-color:#333333;}
+.remarkform{padding:20px 10px 5px;background-color:#dbe2c7; border:solid 1px #999999; text-align:center;}
+.remarkform textarea{border:solid 1px #999999;margin:1.2em auto 0.5em auto;padding:5px;overflow:auto;background-color:#F4F7EC;width:95%; height:80px;}
+.remarkform input{border:solid 1px #999999; margin:auto; padding:3px 3px 1px 3px; background-color:#F4F7EC;}
+.remarkform .point {color: #FF0000;font-size:14px;width:100px;display:inline-block; text-align:left;}
+.clear{display:block; clear:both; background:url(../image/article-mian-bottom-bg.gif)  left bottom no-repeat; height:25px;}
+
+
+		/*<!--------------热门文学--------->*/
+.newestarticle,.hotarticle{width:300px;float:right; border: solid 3px #e0eac8; clear:right;}
+.newestarticle .newest,.hotarticle .hot{ text-align:center; background-color:#e0eac8; padding:10px 0; letter-spacing:0.5em; color:#72A244; font-weight:bold;}
+
+.newestarticle .content{ display:none;}
+.newestarticle .content02{ display:block;}
+
+
+.newestarticle span,.newestarticle span a{text-align:right; display:block; margin:5px 15px 15px 0; color:#999999;}
+.newestarticle span a:hover{color:#000;}
+
+.hotarticle{ margin-top:30px;}
+.hotarticle li a{color:#4d87ce; font-size:14px; display:block; padding:12px 0px 12px 20px;  height:1%; border-top:#cccccc 1px solid; margin-top:-1px;}
+.hotarticle li a span{display:block; font-size:12px; display:none; padding-left:20px;}
+.hotarticle li a:hover{color:#4d87ce; font-size:14px; display:block; background-color:#EFEFEF;}
+.hotarticle li a:hover span ,.hotarticle li a span:hover{ display:block; margin:10px;}
+
+.rolinList{ width:300px; height:auto; margin:0 auto ; text-align:left}
+.rolinList li h2{ width:280px; padding-left:20px; height:40px;  background:#fff; font-size:14px; line-height:40px;  color:#4d87ce; cursor:pointer; border-bottom:solid 1px #999999; overflow:hidden; font-weight:normal;}
+.content{width:300px; height:250px; background: #FaFaFa; border-bottom:1px solid #CCCCCC;font-size:12px;color:#4d87ce;}
+.content p{ margin:12px;}
+

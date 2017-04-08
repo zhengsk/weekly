@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main .navi{position: absolute; margin-left:-200px; top:30px; list-style:none; font-size:14px; text-align:right; padding:10px; }
+.home .navi{ position:absolute; left:50px; top:130px; z-index:999; border-bottom:2px dotted #CCC; padding-bottom:20px;}
+.home .navi li{ position:relative;display:block; background: url(../image/navi-bg02.gif) 122px center no-repeat; padding-right:20px; float:none; text-align:right; width:150px; }
+.home .navi li:hover{background: url(../image/navi-bg03.gif) 124px 2px no-repeat;}
+.home .navi li a{display:block; width:105px;  margin:5px 0; padding:3px 5px; color:#4d87ce; text-decoration:none;}
+.home .navi li a:hover{background: url(../image/navi-bg.png) right repeat-y;}
+
+* html .home .navi li{ background-position:154px 2px;}
+*+html .home .navi li{ background-position:154px 2px;}
+*+html .home .navi li:hover{ background-position:158px 2px;}
+* html .home .navi li a{margin:2.5px 0;}
+*+html .home .navi li a{margin:2.5px 0;}
+/*----------------------------导航条------------------------------------------------*/
+
+html{background:url(../image/body-bg02.jpg) -20px bottom no-repeat; }
+body{min-width:900px; background:url(../image/body-bg.jpg) -20px 80px no-repeat;}
+
+#main{position:relative;margin:-20px 300px auto 50px; padding-left:200px; padding-bottom:50px; color:#555555; z-index:99;}
+#inmain{position:relative; padding-left:20px;background:url(../image/homeVline.gif) repeat-y; _border-left:solid 1px #FFF}
+h5{text-align:center; margin:20px; margin-bottom:0px; color:#93b05c; font-size:15px; clear:both;}
+h3{ font-size:19px;color:#728c40; padding:3px 5px 0px; border-bottom:1px #CCCCCC  dotted; text-indent:1em; width:96%; margin-top:20px; position:relative;background:url(../image/collegehover.gif);}
+h3 a{position:absolute;right:20px; top:5px;width:3em;height:18px;background:url(../image/home-to.gif) no-repeat;_background-position:0px 4px; _top:2px;}
+h3 a:hover{background-position:bottom;}
+h3 b{ font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow",Arial, Helvetica, sans-serif; font-weight:500;  text-transform:uppercase;}
+h3 span{display:none; font-weight:500; letter-spacing:0.8em;}
+h3:hover span{display:inline;}
+h3:hover b{display:none;}
+/*----------------------------主内容块------------------------------------------------*/
+
+
+#people{position:relative; width:100%;}
+#people img{width:32%; margin:3% 1% 2% 6%; border:solid 1px #999; display:inline; float:left; }
+#people ul{width:53%;margin:5% 1% 2% 6%;font-size:14px;  position: relative;list-style:none; display:inline; float:right;}
+#people ul li{ line-height:1.6em;}
+#people ul li:first-child{color:#FF0000; font-size:15px; line-height:2em;}
+#people p{font-size:12px; padding:10px; line-height:1.5em;}
+/*----------------------------本周人物------------------------------------------------*/
+
+
+
+#article{position:relative; width:100%;}
+#article p{padding:10px;font-size:12px;line-height:1.5em;}
+/*----------------------------原创文学界------------------------------------------------*/
+
+#store{position:relative; width:100%;}
+#store p{padding:10px;font-size:12px;line-height:1.5em;}
+#store img{width:30%; float:right; display: inline; margin:10px; border:#999999 1px solid; padding:5px; border:solid #000000 1px;}
+/*----------------------------商店推荐------------------------------------------------*/
+
+#main .news,#main .lost{position: absolute; margin-left:-200px; margin-top:280px;  font-size:14px; padding:10px; width:150px;}
+.news span, .lost span{font-size: 16px;  line-height:3em; font-weight:600;letter-spacing:0.5em;color:#5e9eeb;}
+.news span a,.lost span a{ text-decoration:none; color:#5eafff;}
+.news li, .lost li{list-style:none; font-size:12px; display:block;}
+.news li a , .lost li a{text-decoration:none;  display:block;line-height:1.8em;color:#4d87ce; height:1%;}
+.news li a:hover,.lost li a:hover{color:#0f427f;background:url(../image/collegehover.gif);}
+.news li a:active,.lost li a:active{color:#042f63; outline:none; background:url(../image/navi-bg02.gif) center right no-repeat #f8f8f8;}
+
+#main .lost{margin-top:530px;}
+
+/*----------------------------失物认领------------------------------------------------*/
+/*----------------------------新闻------------------------------------------------*/
+
+
+
+#forum{position:fixed; right:50px;  height:102%; width:200px; top:-5px; _top:20px;  _position:absolute; _margin-bottom:-5px;  }
+#forum img{position:absolute; top:30px; right:100px;;}
+img.forum{position: fixed; _position:absolute; top:-0px; right:-0px;}
+
+/*----------------------------论坛------------------------------------------------*/
+
+
+
+/*------------------------------脚部----------------------------------------------*/

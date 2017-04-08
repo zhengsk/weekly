@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; border:none; outline:none}
+a{text-decoration:none;}
+li{list-style:none;}
+#top{height:80px; background:#a4b77c url(../image/top.gif) repeat-x; text-indent:30px;}
+#top img{margin-top:20px;}
+h1{margin-bottom:70px; min-width:920px;}
+.navi{position:absolute;top:48px; left:240px; font-size:16px;}
+.navi li{ float:left; text-align:center;}
+.navi li a{display:block;padding:5px 10px; color:#ffffff; font-weight:bolder;}
+.navi li a:hover{background: url(../image/navi-bg.png) center right repeat-y; color:#4E5520}
+.navi li a.here{ border-bottom:solid 5px #728c42 ; padding-bottom:8px;}
+
+.navi p#smallNavi{position:absolute; width:660px; padding:8px 20px 2px 20px;height:23px; top:35px; left:0;background:url(../image/small-navi.gif) no-repeat;font-size:0.8em; text-align:left;}
+
+#foot{height:30px; background: url(../image/top.gif) repeat-x bottom #b6cf84; border-bottom:5px #94ae62 solid ;  text-align:center; clear:both; padding:12px; color: #FFFFFF; margin-bottom:0;}
+#foot span{font-size:11px; display:block;}
+#foot em{font-size:12px; display:block; font-style:normal;}
